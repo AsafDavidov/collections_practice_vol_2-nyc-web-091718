@@ -40,7 +40,13 @@ begin def count_elements(array)
   array.each do |element|
     if ret_array.size == 0
       ret_array.push(element)
-      ret_array[0][:count] = 2
+      ret_array[0][:count] = 1
+    elsif
+      
+    else
+      
+    end
+  end
 end
 def merge_data(keys, data)
 end
