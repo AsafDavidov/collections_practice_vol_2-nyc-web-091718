@@ -44,7 +44,7 @@ begin def count_elements(array)
     else
     end
   end
-  
+  ret_array
 end
 def merge_data(keys, data)
 end
