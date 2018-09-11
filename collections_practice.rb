@@ -42,10 +42,9 @@ begin def count_elements(array)
       ret_array.push(element)
       ret_array[0][:count] = 1
     else
-      ret_array.each do |ret_element|
-      
     end
   end
+  
 end
 def merge_data(keys, data)
 end
