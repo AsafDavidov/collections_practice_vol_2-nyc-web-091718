@@ -41,7 +41,8 @@ def count_elements(array)
   array.each do |element|
     if ret_array.size == 0
       ret_array.push(element)
-      ret_array[0][:count] = 1
+      ret_array[ret_index][:count] = 1
+      ret_index += 1
     else
       ret_array.each do |ret_elements|
         if ret_elements[:name] == element[:name]
