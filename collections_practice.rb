@@ -41,9 +41,8 @@ begin def count_elements(array)
     if ret_array.size == 0
       ret_array.push(element)
       ret_array[0][:count] = 1
-    elsif
-      
     else
+      ret_array.each do |ret_element|
       
     end
   end
