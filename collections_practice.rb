@@ -37,6 +37,7 @@ def remove_non_strings(array)
 end
 def count_elements(array)
   ret_array = []
+  ret_index = 0
   array.each do |element|
     if ret_array.size == 0
       ret_array.push(element)
@@ -46,7 +47,7 @@ def count_elements(array)
         if ret_elements[:name] == element[:name]
           
         else
-          
+          ret_array.push(element)
         end
       end  
     end
