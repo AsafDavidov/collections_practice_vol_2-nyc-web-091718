@@ -40,7 +40,7 @@ end
   array.each do |element|
     if element[:name]
 =end
-def merge_data(keys, data2)
+def merge_data(keys, data)
 end
 def find_cool(hash)
   ret_array = []
