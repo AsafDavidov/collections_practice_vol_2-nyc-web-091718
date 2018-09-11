@@ -44,6 +44,12 @@ def count_elements(array)
     else
       ret_array.each do |ret_elements|
         if ret_elements[:name] == element[:name]
+          
+        else
+          
+        end
+      end  
+    end
     end
   end
   ret_array
