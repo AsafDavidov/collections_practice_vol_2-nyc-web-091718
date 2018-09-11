@@ -35,11 +35,13 @@ def remove_non_strings(array)
   array.delete_if{|element| element.class != String}
   array
 end
-=begin def count_elements(array)
+begin def count_elements(array)
   ret_array = []
   array.each do |element|
-    if element[:name]
-=end
+    if ret_array.size == 0
+      ret_array.push(element)
+      ret_array[0][:count] = 2
+end
 def merge_data(keys, data)
 end
 def find_cool(hash)
