@@ -47,6 +47,7 @@ begin def count_elements(array)
 end
 def merge_data(keys, data)
 end
+=begin 
 def find_cool(hash)
   ret_array = []
   hash.each do |element|
@@ -55,7 +56,7 @@ def find_cool(hash)
     end
   end
 end
-=begin
+
 def organize_schools(schools)
   organized_school = {}
   schools.each do |element,location|
