@@ -56,7 +56,7 @@ def find_cool(hash)
   end
   ret_array
 end
-
+=begin
 def organize_schools(schools)
   organized_school = {}
   schools.each do |element,location|
