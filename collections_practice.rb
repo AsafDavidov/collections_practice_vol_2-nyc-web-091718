@@ -64,3 +64,4 @@ def organize_schools(schools)
   end
   organized_school
 end
+=end
