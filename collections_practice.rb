@@ -53,8 +53,6 @@ def find_cool(hash)
     if element[:temperature] == "cool"
       ret_array.push(element)
     end
-  end
-  ret_array
 end
 =begin
 def organize_schools(schools)
